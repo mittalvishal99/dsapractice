@@ -1,0 +1,7 @@
+api\UserInfoDTO.class
+controllers\RegisterationControllerClass.class
+HCAppinitializer.class
+controllers\HCAppController.class
+api\UserRegisterationDTO.class
+controllers\TestController.class
+horoscope_matcher_config.class
