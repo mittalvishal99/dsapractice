@@ -1,0 +1,31 @@
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    //leaders in Array
+	    // right mei sab chotay
+	    //Leaders in an Array problem
+//An element is called the leader of an array if there is no element greater than it on the right side.
+	    
+	    int arr[]={7,10,4,10,6,5,2};
+        //last element to leader hai hii
+        System.out.print(arr[arr.length-1]+" ");
+        int leader=arr[arr.length-1];
+        //ab last ko leader maano uske peechay se compare karo
+        //agar koi hai to usko leader bana do
+        for(int i=arr.length-2;i>=0;i--)
+        {
+            if(arr[i]>leader)
+            {
+                System.out.print(arr[i]+" ");
+                leader=arr[i];
+            }
+            
+        }
+   
+        //for(int i=0;i<arr.length;i++){
+          //  System.out.print(arr[i]+" ");
+        //}
+        
+	}
+}

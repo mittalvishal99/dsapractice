@@ -1,0 +1,42 @@
+thetha n
+//find the second largest element in array
+public class Main
+{
+    //array is object in java so arr.length
+	public static void main(String[] args)
+	{
+	    
+	    int arr[]={5,6,8,9,3,1};
+	    /*
+	    */
+	    int max=0;
+	    int max2=-1; //because second largest can return -1...for{10,10,10}
+	    for(int i=1;i<arr.length;i++)
+	    {
+	        
+	    //we can have three cases
+	    
+	        //a)
+	        if(arr[i]>arr[max])
+	        {
+	            max2=max;
+	            max=i;
+	        }
+	        //b)if arr[i]!=arr[max]........{20,12,10,20}
+	        else if(arr[i]!=arr[max])
+	        {
+	            if(arr[i]==-1 || arr[max2]<arr[i] )
+	            {
+	                max2=i;
+	            }
+	        }
+	        //c)if arr[i]== arr[max]
+	   
+	    }
+	    System.out.println(max2);
+	    
+
+	    
+	    
+	}
+}

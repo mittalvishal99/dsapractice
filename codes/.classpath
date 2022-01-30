@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="bit_manipulation/src"/>
+	<classpathentry kind="src" path="mathematics/src"/>
+	<classpathentry excluding="com/company/" kind="src" path="Search/src"/>
+	<classpathentry kind="src" path="Search/src/com/company"/>
+	<classpathentry kind="src" path="selection/src"/>
+	<classpathentry kind="src" path="sort/src"/>
+	<classpathentry excluding="com/company/" kind="src" path="String/src"/>
+	<classpathentry kind="src" path="String/src/com/company"/>
+	<classpathentry kind="output" path="Search/out/production/Search"/>
+</classpath>

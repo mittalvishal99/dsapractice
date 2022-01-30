@@ -1,0 +1,28 @@
+
+//big o of n as in some cases it might take only constant time for eg one element 
+//array is sorted or not
+//either increasing or same
+public class Main
+{
+    //array is object in java so arr.length
+	public static void main(String[] args)
+	{
+	    
+	    int arr[]={5,6,8,9,3,1};
+	    
+        boolean flag=true;
+        //if only one element...for loop handles that case as well
+	    
+        for(int i=1;i<arr.length;i++)
+        {
+            if(arr[i]<arr[i-1])
+            {
+                flag=false;
+                break;
+            }
+        }
+        System.out.println(flag);
+	    
+	    
+	}
+}

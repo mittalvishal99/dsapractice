@@ -1,0 +1,31 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+//Maximum Difference Problem with Order
+//Maximum Difference problem is to find the maximum of arr[j] - arr[i] where j>i.
+//thetha n^2
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    int arr[]={30,10,8,2};
+	    int n=arr.length;
+	    int val=Integer.MIN_VALUE;
+	    for(int i=n-1;i>=1;i--)
+	    {
+	        for(int j=i-1;j>=0;j--)
+	        {
+	            int new_val=arr[i]-arr[j];
+	            if(new_val>val)
+	            {
+	                val=new_val;
+	            }
+	        }
+	    }
+	       System.out.println(val);
+	}
+}

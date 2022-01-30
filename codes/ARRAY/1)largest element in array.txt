@@ -1,0 +1,25 @@
+thetha n
+//find the largest element in array
+public class Main
+{
+    //array is object in java so arr.length
+	public static void main(String[] args)
+	{
+	    
+	    int arr[]={5,6,8,9,3,1};
+	    int max=0;
+	    for(int i=1;i<arr.length;i++)
+	    {
+	        if(arr[i]>arr[max])
+	        {
+	            max=i;
+
+	        }
+	    }
+	    System.out.println(max);
+	    
+
+	    
+	    
+	}
+}
